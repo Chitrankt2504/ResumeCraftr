@@ -1,0 +1,148 @@
+{
+  "resume": {
+    "id": "1",
+    "profile": {
+      "first_name": "Jeremy",
+      "last_name": "DAGORN",
+      "website": "http://www.jeremydagorn.com",
+      "email": "jeremy.dagorn@gmail.com",
+      "PhoneNo.": "7685947653",
+      "github": "http://github.com/jrm2k6",
+      "location": "San Diego"
+    },
+    "About Me": {
+      "summary": "A one-sentence to one-paragraph overview text. Do not include any line-breaks."
+    },
+    "Academics": [
+      {
+        "University": {
+          "start-date": "Sep, 2011",
+          "end-date": "May, 2012",
+          "institution": {
+            "name": "Laval University",
+            "city": "Quebec City",
+            "country": "Canada"
+          },
+          "description": "Exchange student in software engineering and computer science",
+          "additional-info": "Graduating with the equivalent of a Master Degree in Computer Science",
+          "id": "item-education-laval",
+          "extra": {
+            "type": "text",
+            "extraContent": "This is when I started to discover an interest for programming. On my free time I started to work on my first website, using Ruby on Rails. You can still find it at <a href=\"http://www.old.jeremydagorn.com\"> old.jeremydagorn.com</a>."
+          }
+        }
+      },
+      {
+        "College": {
+          "start-date": "Sep, 2009",
+          "end-date": "Oct, 2012",
+          "institution": {
+            "name": "Engineering School of University of Nantes",
+            "city": "Nantes",
+            "country": "France"
+          },
+          "description": "Student in Software Engineering and Networks.",
+          "additional-info": "Graduated with the equivalent of a Master Degree in Computer Science",
+          "extra": {
+            "type": "text",
+            "extraContent": "Fun fact: my first Android app was a shopping list application for a school project. <br /> Done in collaboration with <a href=\"https://twitter.com/atomrc\">@atomrc</a> at the time."
+          },
+          "id": "item-education-polytech"
+        }
+      },
+      {
+        "School": {
+          "start-date": "Sep, 2006",
+          "end-date": "May, 2009",
+          "institution": {
+            "name": "University of South Brittany",
+            "city": "Vannes",
+            "country": "France"
+          },
+          "description": "Student in Computer Science.",
+          "additional-info": "Graduated with a Bachelor Degree in Computer Science with honors"
+        }
+      }
+    ],
+    "Professional-Experiences": [
+      {
+        "item-proE": {
+          "start-date": "Oct. 2016",
+          "end-date": "Current",
+          "position": "Software engineer",
+          "company": {
+            "name": "Ebates",
+            "city": "San Diego",
+            "country": "USA"
+          },
+          "achievements": "Member of the universal shopping cart team. I add features and help maintain several of our microservices in PHP/Laravel. Some of my other responsibilities include APIs integration (external merchants), and continuous integration pipeline for one-click deployment in our different QA environments, using Jenkins and Docker.",
+          "technologies": ["Javascript", "Angular.js", "PHP", "Laravel", "Java"]
+        }
+      },
+      {
+        "item-proE": {
+          "start-date": "Jan. 2015",
+          "end-date": "Oct. 2016",
+          "position": "Software engineer",
+          "company": {
+            "name": "Curology",
+            "city": "San Diego",
+            "country": "USA"
+          },
+          "achievements": "Full-stack engineer, first engineer to join. Working on front-end and backend development to drive acquisition and retention of users. During my time there, I reimplemented a complex signup flow using Ember.js, introduced the company to React.js and Redux, and setup the initial Jenkins pipeline for our continous integration. I also worked a lot on improving our test coverage, through unit tests but also integration tests using Cucumber. Some of the React projects I worked on were a support center for our users, and an inventory management solution for our fulfillment team (Web app and React Native mobile app acting as a bottle scanner).",
+          "technologies": [
+            "Javascript",
+            "React.js",
+            "Ember.js",
+            "Laravel",
+            "React-Native"
+          ]
+        }
+      },
+      {
+        "item-ProE": {
+          "start-date": "May. 2012",
+          "end-date": "Sep. 2014",
+          "position": "Software engineer",
+          "company": {
+            "name": "Prezi.com",
+            "city": "Budapest",
+            "country": "Hungary"
+          },
+          "achievements": "During my two years at Prezi, I have been part of several teams. I started as a developer in charge of implementing new features for the Prezi editor, in order to increase the number of reccurring users. Then, I joined the Collaboration team where I implemented complex user interfaces and new features for real time editing and presenting of Prezi presentations. I also joined the Javascript team where I worked on implementing a UI framework for other developers including a lot of architectural decisions.",
+          "technologies": [
+            "Actionscript",
+            "Javascript",
+            "Typescript",
+            "Haxe",
+            "React.js",
+            "Java",
+            "Python"
+          ],
+          "id": "item-work-prezi",
+          "extra": {
+            "type": "text",
+            "extraContent": "I learned so much during my time there. From testing to continuous deployment. <br /> Some technologies and tools that I used: <ul><li>Jenkins</li><li>Pig/Hadoop</li><li>Cucumber</li><li>Gradle</li></ul>"
+          }
+        }
+      }
+    ],
+    "projects": [
+      {
+        "item-projects": {
+          "title": "Developer for iheartreading.co",
+          "description": "I have been working on I Heart Reading for a bit more than a year now. It is a platform helping teachers and students to keep track of their readings. It also gives the ability for teachers to get a clear picture of the progress made by their students, through a simple interface. Students can mark books as read and write reviews that their teachers can approve. I have one school in San Diego using it for the second year now. I started it from scratch as a way to improve my skills in Laravel and React. Some of the upcoming features would be books recommendations and adding some gamificiation to make reading logs more fun to use.",
+          "technologies": ["React", "Redux", "Laravel"]
+        }
+      },
+      {
+        "item-projects": {
+          "title": "Maintainer of several open-source projects",
+          "description": "On my free time, I work on various open-source projects of my own. Those mostly includes small packages, easy to integrate. For example, this resume is generated through a npm package of my own called json-resume-dynamic. I have also a markdown editor with preview implemented in React.js that is currently used in production at Curology. I am also maintaining Reddit and Cloudinary API wrappers for Laravel, available as composer packages. ANother project is a small npm package to help you generate a calendar showing all your Bitbucket and Github contributions as a React component, easy to display on your website.",
+          "technologies": ["React", "Laravel"]
+        }
+      }
+    ],
+    "skills": ["Javascript", "React.js/Redux", "PHP", "Laravel", "Android/Java"]
+  }
+}
